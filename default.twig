@@ -73,7 +73,7 @@
                                     {% for page, dirb in tree %}
                                         {% if dirb is iterable %}
                                             <div class="list-group-item">
-                                            {{recurse.pagelist2b(page, dir ~ '/' ~ page, dirb, baseUrl)}}
+                                            {{recurse.pagelist2b(page, dir ~ '/' ~ name, dirb, baseUrl)}}
                                             </div>
                                         {% endif %}
                                     {% endfor %}
