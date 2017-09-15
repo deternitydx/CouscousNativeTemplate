@@ -77,6 +77,10 @@ pre {
     padding: 5px 15px;
 }
 
+.list-group-header {
+    background-color: #eee;
+}
+
 /*----------------------
        HEADER
 -----------------------*/
