@@ -32,44 +32,5 @@ subTitle: This is a great project.
 fontAwesomeIcon: fa fa-hand-peace-o
 footerText: This is a footer text
 googleAnalyticsCode: GOOGLE-ANALYTICS-CODE
-
-# The left menu bar
-menu:
-    sections:
-        main:
-            name: Main documentation
-            items:
-                home:
-                    text: Home page
-                    # You can use relative urls
-                    relativeUrl: doc/faq.html
-                foo:
-                    text: Another link
-                    # Or absolute urls
-                    absoluteUrl: https://example.com
-        other:
-            name: Other topics
-            items:
 ```
 
-Note that the menu items can also contain HTML:
-
-```yaml
-home:
-    text: "<i class='fa fa-github'></i> Home page"
-    relativeUrl: doc/faq.html
-```
-
-## Menu
-
-To set the current menu item (i.e. highlighted menu item), set the ```currentMenu```
-key in the Markdown files:
-
-```
-markdown
----
-currentMenu: home
----
-
-# Welcome
-```
