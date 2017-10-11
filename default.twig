@@ -58,7 +58,7 @@
                                             {{recurse.pagelist2(page, dir ~ '/' ~ page, dirb, baseUrl)}}
                                         {% else %}
                                             <a class="list-group-item" href="{{ baseUrl ~ '/' ~ dir ~ '/' ~ name ~ '/' ~ page }}">
-                                                {{ page|preg_replace('/^[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-/','').replace({'.html':'', '-':''}) }}
+                                                {{ page|preg_replace('/[0-9][0-9][0-9][0-9]\-[0-9][0-9]\-[0-9][0-9]\-/','').replace({'.html':'', '-':''}) }}
                                             </a>
                                         {% endif %}
                                     {% endfor %}
