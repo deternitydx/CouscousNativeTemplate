@@ -77,6 +77,14 @@ pre {
     padding: 5px 15px;
 }
 
+.nav a {
+    font-size: 14px;
+}
+.nav a .menu-date {
+    font-size: 12px;
+    font-style: italic;
+}
+
 .list-group-header {
     background-color: #eee;
 }
