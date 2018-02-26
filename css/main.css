@@ -19,6 +19,17 @@ body {
     margin-bottom: 68px;
 }
 
+@media print {
+    #sidebar, .site-header, .site-footer {
+        display: none;
+    }
+    .content {
+        width: 100%!important;
+        text-align: left!important;
+    }
+}
+
+
 @media (max-width: 991px) {
     body {
         font-size: 14px;
